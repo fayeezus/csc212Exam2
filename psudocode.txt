@@ -1,0 +1,24 @@
+//pesudo code
+// positive and negative case for textual palindrome QUEUE
+- We first create a bool function that contains the queue string and the text or phrase we will enter
+- We also need to create reverse and forward for push so we can insert letters and pop to remove the letters
+- We create a char letter and then run a for loop to have our phrase inserted in the program
+- We then run a while loop to test our positive and negative case
+- We can use cassert to check if the size of reverse and forward is the same
+- While it is empty we can return the negative case as it is not a palindrome
+- we can then start popping reverse and forward and finally return true if it is palindrome
+- In our main part of the function we create a string and cout "please enter phrase:"
+- we then save the given phrase using getline and then cout if it is bool(palindrome or not 
+
+// positive and negative case for textual palindrome STACK
+// it is the same implementation as queue but in this case we will be using top instead of front in queue. 
+
+- We first create a bool function that contains the queue string and the text or phrase we will enter
+- We also need to create reverse and forward for push so we can insert letters and pop to remove the letters
+- We create a char letter and then run a for loop to have our phrase inserted in the program
+- We then run a while loop to test our positive and negative case
+- We can use cassert to check if the size of reverse and forward is the same
+- While it is empty we can return the negative case as it is not a palindrome
+- we can then start popping reverse and forward and finally return true if it is palindrome
+- In our main part of the function we create a string and cout "please enter phrase:"
+- we then save the given phrase using getline and then cout if it is bool(palindrome or not 
