@@ -1,4 +1,7 @@
 //pesudo code
+//GITHUB LINK FOR THE EXAM: https://github.com/fayeezus/csc212Exam2
+It won't let me upload 2 files on blackboard
+
 // positive and negative case for textual palindrome QUEUE
 - We first create a bool function that contains the queue string and the text or phrase we will enter
 - We also need to create reverse and forward for push so we can insert letters and pop to remove the letters
@@ -22,3 +25,8 @@
 - we can then start popping reverse and forward and finally return true if it is palindrome
 - In our main part of the function we create a string and cout "please enter phrase:"
 - we then save the given phrase using getline and then cout if it is bool(palindrome or not 
+
+
+For both cases:
+- We let the code run until the user says to exit that means that a user can ask to put in multiple lines in the palindrome and it would work the same way it did with a single line. it will first print all the lines that user implemented and then say whether or not it is a palindrome or not 
+- We can also throw an exception error where if the case is empty or file not found it would display the error and exit the program. 
